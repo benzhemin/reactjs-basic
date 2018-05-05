@@ -12,7 +12,7 @@ var config = {
         publicPath: "/app/"
     },
     module: {
-        rules: [
+        loaders: [
             {
                 test: /\.js?/,
                 include: SRC_DIR,
